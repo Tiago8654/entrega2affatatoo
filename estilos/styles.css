@@ -1,0 +1,115 @@
+/* estilos generales*/
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* header*/
+h1{
+  font-size: 100px;
+  color: rgb(220 53 69);
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: underline;
+}
+#navbarSupportedContent{
+  margin: 40px;
+}
+.Logo{
+width: 5rem;
+border-radius: 50%;
+height: 5rem;
+object-fit: cover;
+margin: 30px;
+}
+.fondo{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.534);
+}
+.textoBajo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.HeaderIndex{
+background-image: url(/img/inicioBack.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+background-attachment: fixed;
+height: 60vh;
+}
+.HeaderNoticias{
+background-image: url(/img/noticiasBack.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+background-attachment: fixed;
+height: 60vh;
+}
+.HeaderLanzamientos{
+background-image: url(/img/lanzamientosBack.webp);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+background-attachment: fixed;
+height: 60vh;
+}
+.HeaderTecnologias{
+background-image: url(/img/tecnologiasBack.webp);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+background-attachment: fixed;
+height: 60vh;
+}
+.contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+/* Main*/
+h2{
+  text-decoration: underline;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+.tecno-productos{
+  width: 20rem;
+}
+.lanzamientos{
+  width: 40rem;
+}
+.tecno-productos button{
+  background-color: rgb(0, 0, 0);
+  color: rgb(220 53 69);
+  padding: 0.3rem 6.4rem;
+  margin-bottom: 1rem;
+}
+
+.cuadros{
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+justify-content: space-between;
+}
+
+.noticia{
+  width: 40rem;
+}
+/* footer*/
+footer p{
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: rgb(220 53 69);
+}
