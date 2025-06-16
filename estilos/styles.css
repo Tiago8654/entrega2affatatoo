@@ -32,7 +32,7 @@ margin: 30px;
   align-items: center;
 }
 .HeaderIndex{
-background-image: url(/img/inicioBack.jpg);
+background-image: url(../img/inicioBack.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -41,7 +41,7 @@ background-attachment: fixed;
 height: 60vh;
 }
 .HeaderNoticias{
-background-image: url(/img/noticiasBack.jpg);
+background-image: url(../img/noticiasBack.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -50,7 +50,7 @@ background-attachment: fixed;
 height: 60vh;
 }
 .HeaderLanzamientos{
-background-image: url(/img/lanzamientosBack.webp);
+background-image: url(../img/lanzamientosBack.webp);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -59,7 +59,7 @@ background-attachment: fixed;
 height: 60vh;
 }
 .HeaderTecnologias{
-background-image: url(/img/tecnologiasBack.webp);
+background-image: url(../img/tecnologiasBack.webp);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -112,4 +112,7 @@ footer p{
   text-align: center;
   background-color: rgb(0, 0, 0);
   color: rgb(220 53 69);
+}
+.logoRedes{
+  width: 3rem;
 }
