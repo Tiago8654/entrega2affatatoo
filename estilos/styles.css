@@ -2,7 +2,12 @@
 *{
   font-family: 'Times New Roman', Times, serif;
 }
-
+.transicion:hover{
+  color: rgb(255, 255, 0);
+}
+.transicion{
+  transition: color 0.3;
+}
 /* header*/
 h1{
   font-size: 100px;
